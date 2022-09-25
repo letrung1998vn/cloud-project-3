@@ -13,9 +13,9 @@ install:
   - docker tag udagram-api-feed letrung1998vn/udagram-api-feed:v1
   - docker tag udagram-api-user letrung1998vn/udagram-api-user:v1
   - docker tag udagram-frontend letrung1998vn/udagram-frontend:v1
-  - docker tag udagram-reverseproxy letrung1998vn/udagram-reverseproxy:v1
+  - docker tag udagram-reverseproxy letrung1998vn/reverseproxy:v1
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push letrung1998vn/udagram-api-feed:v1
   - docker push letrung1998vn/udagram-api-user:v1
   - docker push letrung1998vn/udagram-frontend:v1
-  - docker push letrung1998vn/udagram-reverseproxy:v1
+  - docker push letrung1998vn/reverseproxy:v1
