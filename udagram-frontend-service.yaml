@@ -4,6 +4,7 @@ metadata:
   name: udagram-frontend
   labels:
     run: udagram-frontend
+spec:
   ports:
   - port: 8100
     protocol: TCP
