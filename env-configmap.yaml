@@ -5,6 +5,7 @@ metadata:
 data:
   POSTGRES_HOST: cloud-developer-3.cmctgcbcec2v.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
+  AWS_PROFILE: udacity-developer
   AWS_BUCKET: project-3-s3
   AWS_REGION: us-east-1
   JWT_SECRET: hello
